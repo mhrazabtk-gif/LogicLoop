@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const DOMAIN = 'https://logicloop.pages.dev';
+const DOMAIN = 'https://logicloop.pageaura.xyz';
 const KEY = '6ef135f280bf44a3ad1a79ff68d335f6';
 
 const ROOT = __dirname;
@@ -45,7 +45,7 @@ for (const value of rawUrls) {
   }
 
   if (
-    url.hostname.toLowerCase() !== 'logicloop.pages.dev' ||
+    url.hostname.toLowerCase() !== 'logicloop.pageaura.xyz' ||
     !['http:', 'https:'].includes(url.protocol) ||
     url.username ||
     url.password
