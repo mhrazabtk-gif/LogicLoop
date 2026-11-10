@@ -2,9 +2,9 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
-const HOST = 'logicloop.pages.dev';
+const HOST = 'logicloop.pageaura.xyz';
 const KEY = '6ef135f280bf44a3ad1a79ff68d335f6';
-const KEY_LOCATION = `https://logicloop.pages.dev/6ef135f280bf44a3ad1a79ff68d335f6.txt`;
+const KEY_LOCATION = `https://logicloop.pageaura.xyz/6ef135f280bf44a3ad1a79ff68d335f6.txt`;
 
 const urlsFile = path.join(__dirname, 'urls.txt');
 let urlList = [];
